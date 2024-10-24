@@ -20,7 +20,7 @@ export const Contacto = () => {
       }
     
   return (
-    <div className="max-w-md mx-auto p-8 bg-gradient-to-br from-purple-100 to-blue-100 rounded-xl shadow-lg md:max-w-2xl">
+    <div className="max-w-md mx-auto p-8 mb-8 bg-gradient-to-br from-purple-100 to-blue-100 rounded-xl shadow-lg md:max-w-2xl">
     <h2 className="text-3xl font-bold mb-6 text-center text-gray-800">Contáctame</h2>
     <form action="https://formspree.io/f/mrgnwqag" method="POST" onSubmit={handleSubmit} className="space-y-6">
       {["name", "email", "message"].map((field) => (

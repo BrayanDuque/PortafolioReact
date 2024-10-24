@@ -11,12 +11,12 @@ export const NavBar = () => {
                 </svg>
                 <span className="ml-3 text-xl">DevBra</span>
             </a>
-            <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center ">
-                <a className="mr-5 hover:text-blue-400 cursor-pointer">Inicio</a>
-                <a className="mr-5 hover:text-blue-400 cursor-pointer">Info</a>
+            {/* <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center ">
+                <a href='' className="mr-5 hover:text-blue-400 cursor-pointer">Perfil</a>
                 <a className="mr-5 hover:text-blue-400 cursor-pointer">Proyectos</a>
+                <a className="mr-5 hover:text-blue-400 cursor-pointer">Habilidades</a>
                 <a className="mr-5 hover:text-blue-400 cursor-pointer">Contacto</a>
-            </nav>
+            </nav> */}
             
         </div>
     </header>

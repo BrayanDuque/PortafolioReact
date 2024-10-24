@@ -6,10 +6,7 @@ import Proyectos from './Components/Proyectos/Proyectos'
 import Skills from './Components/Skills/Skills'
 import Contacto from './Components/Contacto/Contacto'
 
-function App() {
-  const [count, setCount] = useState(0)
-  
-  
+function App() {  
   return (
     <>
     
