@@ -4,7 +4,7 @@ export const Info = () => {
     const pdfUrl = "../../../public/HV-BrayanDuque.pdf"
   return (
     // Contenedor para la información del desarrollador
-    <div className='bg-fondoPerfil py-16 h-screen grid justify-center overflow-auto'>
+    <div className='bg-fondoPerfil py-16 h-screen grid justify-center'>
        <section className='grid grid-cols-1 content-center lg:flex md:justify-center md:items-center gap-12 px-20'>
             <img src="https://cv-programador.vercel.app/assets/imagenes/file.jpg" alt="perfil" className='rounded-full w-9/12  mx-auto ' />
             <div className='px-4 md:px-16'>
