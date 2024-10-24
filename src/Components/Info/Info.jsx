@@ -1,7 +1,7 @@
 import React from 'react'
 import { Github, Linkedin, DownloadIcon  } from 'lucide-react'
 export const Info = () => {
-    const pdfUrl = "../../../public/HV-BrayanDuque.pdf"
+    const pdfUrl = "/HV-BrayanDuque.pdf"
   return (
     // Contenedor para la información del desarrollador
     <div className='bg-fondoPerfil py-16 grid justify-center'>
