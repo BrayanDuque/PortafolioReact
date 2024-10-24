@@ -20,8 +20,6 @@ export const Info = () => {
             <a href="https://www.linkedin.com/in/brduque/" target='_blank'>
                 <Linkedin strokeWidth={1.25} color='white' size={48} />
             </a>
-            
-                {/* //  */}
                 
             <a href={pdfUrl} download>
                 <DownloadIcon className='text-white' size={48} />
