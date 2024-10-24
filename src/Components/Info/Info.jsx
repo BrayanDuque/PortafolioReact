@@ -13,7 +13,7 @@ export const Info = () => {
                     <p className='text-sm sm:text-xl text-gray-300 '>Desarrollador Frontend con pasión por crear interfaces de usuario intuitivas y eficientes. Experiencia en HTML, CSS, JavaScript, Figma, React y Angular. Habilidades demostradas en la creación desitios web responsive y en la colaboración efectiva en equipos ágiles. Comprometido con el aprendizaje continuo y la mejora de habilidades técnicas.</p>
             </div>
        </section>
-       <div className='flex justify-center py-3 gap-10 '>
+       <div className='flex justify-center pt-8 pb-3 gap-10 '>
             <a href="https://github.com/BrayanDuque" target='_blank'>
                 <Github color='white' size={48}/>
             </a>
