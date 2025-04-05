@@ -12,43 +12,49 @@ export const Proyectos = () => {
     //     { titulo : 'proyectos', description : 'lorem ipsum', url: ''},
     // ]
     const projects = [
-        {
-          title: "Nintendo Copy",
-          description: "Una plataforma de comercio de nintendo, basada en publicidad.",
+      {
+        title: "Nintendo Copy",
+        description:
+          "Una plataforma de comercio de nintendo, basada en publicidad.",
           technologies: ["Html", "Css", "Tailwind"],
           github: "https://brayanduque.github.io/Page-Nintendo/",
         },
         {
-          title: "Pendientes App",
-          description: "Aplicación de gestión de tareas con funcionalidades de añadir, eliminar, categorizar, y colaboración en tiempo real.",
-          technologies: ["Javascript","Angular", "Html", "Css", "Tailwind"],
-          github: "https://pendientes-app-one.vercel.app/",
+          title: "Cronometro",
+          description:
+          "Cronometro básico con funcionalidades de iniciar, pausar y reiniciar.",
+          technologies: ["Html", "Tailwind", "Javascript", "React.js"],
+          github: "https://cronometro-react-gamma.vercel.app/",
         },
-        {
-          title: "Porcentaje De Resultados",
-          description: "Dashboard estático que muestra promedio de resultados de diferentes pruebas realizadas.",
-          technologies: ["Html", "Css", "Tailwind"],
-          github: "https://brayanduque.github.io/mentor-1/",
-        },
-        {
-          title: "Store",
-          description: "Una plataforma de comercio completa con carrito de compras y diferentes categorias (esta en proceso) .",
-          technologies: ["Html", "Tailwind", "Javascript", "AngularJS"],
-          github: "https://store-angular-gamma.vercel.app/",
-        },
-        {
-          title: "Galery Famous",
-          description: "Landing pages de una galeria básica de seis famosos con sus respetivas obras de arte",
-          technologies: ["Html", "Css", "Bootstrap"],
-          github: "https://brayanduque.github.io/galery-famous/",
-        },
-        {
-          title: "Fylo",
-          description: "Landing pages de una pagina empresarial estática donde sugiere el correo electronico para poder continuar con el proceso.",
-          technologies: ["Html", "Css", "Bootstrap"],
-          github: "https://brayanduque.github.io/fylo/",
-        }
-      ];
+      {
+        title: "Porcentaje De Resultados",
+        description:
+        "Dashboard estático que muestra promedio de resultados de diferentes pruebas realizadas.",
+        technologies: ["Html", "Css", "Tailwind"],
+        github: "https://brayanduque.github.io/mentor-1/",
+      },
+      {
+        title: "Pendientes App",
+        description:
+          "Aplicación de gestión de tareas con funcionalidades de añadir, eliminar, categorizar, y colaboración en tiempo real.",
+        technologies: ["Javascript", "Angular", "Html", "Css", "Tailwind"],
+        github: "https://pendientes-app-one.vercel.app/",
+      },
+      {
+        title: "Galery Famous",
+        description:
+          "Landing pages de una galeria básica de seis famosos con sus respetivas obras de arte",
+        technologies: ["Html", "Css", "Bootstrap"],
+        github: "https://brayanduque.github.io/galery-famous/",
+      },
+      {
+        title: "Fylo",
+        description:
+          "Landing pages de una pagina empresarial estática donde sugiere el correo electronico para poder continuar con el proceso.",
+        technologies: ["Html", "Css", "Bootstrap"],
+        github: "https://brayanduque.github.io/fylo/",
+      },
+    ];
   return (
     <div className=" px-4 py-16 bg-proyects">
       <h2 className="text-3xl font-bold text-center text-white mb-12">Mis Proyectos</h2>
