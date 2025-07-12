@@ -1,16 +1,47 @@
-import React from 'react'
 
 export const Skills = () => {
     const skills = [
-        { name: "HTML", description: "Estructuración semántica de contenido web", level: "Avanzado" },
-        { name: "CSS", description: "Estilización y diseño responsivo de interfaces", level: "Avanzado" },
-        { name: "JavaScript", description: "Programación dinámica del lado del cliente", level: "Avanzado" },
-        { name: "Tailwind", description: "Framework CSS utilitario para diseño rápido", level: "Avanzado" },
-        { name: "Bootstrap", description: "Framework CSS para desarrollo responsivo", level: "Avanzado" },
-        { name: "React", description: "Biblioteca JS para interfaces interactivas", level: "Intermedio" },
-        { name: "Angular", description: "Framework para apps web escalables", level: "Intermedio" },
-        { name: "Scrum", description: "Metodología ágil para gestión de proyectos", level: "Intermedio" }
-      ]
+      {
+        name: "HTML",
+        description: "Estructuración semántica de contenido web",
+        level: "Avanzado",
+      },
+      {
+        name: "CSS",
+        description: "Estilización y diseño de interfaces",
+        level: "Avanzado",
+      },
+      {
+        name: "JavaScript",
+        description: "Programación dinámica del lado del cliente",
+        level: "Intermedio",
+      },
+      {
+        name: "Tailwind",
+        description: "Framework CSS utilitario para diseño rápido",
+        level: "Avanzado",
+      },
+      {
+        name: "Bootstrap",
+        description: "Framework CSS para desarrollo responsivo",
+        level: "Avanzado",
+      },
+      {
+        name: "React",
+        description: "Biblioteca JS para interfaces interactivas",
+        level: "Intermedio",
+      },
+      {
+        name: "Git",
+        description: "Control de versiones ",
+        level: "Intermedio",
+      },
+      {
+        name: "Scrum",
+        description: "Metodología ágil para gestión de proyectos",
+        level: "Intermedio",
+      },
+    ];
   return (
     <div className="container mx-auto px-4 py-8">
       <h2 className="text-3xl font-bold text-center mb-8">Mis Habilidades de Desarrollo</h2>

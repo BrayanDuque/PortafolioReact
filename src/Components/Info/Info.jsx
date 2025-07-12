@@ -1,4 +1,3 @@
-import React from 'react'
 import { Github, Linkedin, DownloadIcon  } from 'lucide-react'
 export const Info = () => {
     const pdfUrl = "/HV-BrayanDuque.pdf"
@@ -10,7 +9,7 @@ export const Info = () => {
             <div className='px-4 md:px-16'>
                     <h2 className='text-5xl font-bold text-white pt-5 pb-1'>Brayan Duque</h2>
                     <p className='uppercase tracking-widest text-pink-500 pb-5'>Developer Frontend</p>
-                    <p className='text-sm sm:text-xl text-gray-300 '>Desarrollador Frontend con pasión por crear interfaces de usuario intuitivas y eficientes. Experiencia en HTML, CSS, JavaScript, Figma, React y Angular. Habilidades demostradas en la creación de sitios web responsive y en la colaboración efectiva en equipos ágiles. Comprometido con el aprendizaje continuo y la mejora de habilidades técnicas.</p>
+                    <p className='text-sm sm:text-xl text-gray-300 '>Desarrollador Frontend con pasión por crear interfaces de usuario intuitivas y eficientes. Experiencia en HTML, CSS, JavaScript, Figma y React. Habilidades demostradas en la creación de sitios web responsive y en la colaboración efectiva en equipos ágiles. Comprometido con el aprendizaje continuo y la mejora de habilidades técnicas.</p>
             </div>
        </section>
        <div className='flex justify-center pt-8 pb-3 gap-10 '>
