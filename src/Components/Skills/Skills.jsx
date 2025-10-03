@@ -7,6 +7,7 @@ import {
   FaGitAlt,
   FaUsers,
   FaFigma,
+  FaDatabase,
 } from "react-icons/fa";
 
 const iconMap = {
@@ -21,6 +22,7 @@ const iconMap = {
   Figma: <FaFigma className="text-pink-400" />,
   "node.js": <FaNodeJs className="text-green-600" />,
   Express: <FaNodeJs className="text-gray-600" />,
+  "base de datos": <FaDatabase className="text-blue-700" />,
 };
 
 export const Skills = () => {
@@ -80,46 +82,49 @@ export const Skills = () => {
       description: "Framework web para Node.js",
       level: "Básico",
     },
+    {
+      name: "base de datos",
+      description: "Conocimiento básico en bases de datos SQL y NoSQL",
+      level: "Básico",
+    },
   ];
 
   const borderColor = (level) =>
     level === "Avanzado"
-      ? "border-green-300"
+      ? "border-green-400"
       : level === "Intermedio"
-      ? "border-yellow-300"
-      : "border-gray-300";
-
-  const bgColor = "bg-white";
+      ? "border-yellow-400"
+      : "border-blue-300";
 
   return (
-    <div className="container mx-auto px-4 py-8">
-      <h2 className="text-2xl font-bold text-center mb-8 text-gray-800">
+    <div className="container mx-auto px-4 py-10">
+      <h2 className="text-3xl font-bold text-center mb-10 text-gray-800 drop-shadow-lg">
         Habilidades Técnicas
       </h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
         {skills.map((skill, index) => (
           <div
             key={index}
-            className={`rounded-lg shadow-sm border ${borderColor(
+            className={`rounded-xl shadow-lg border-2 ${borderColor(
               skill.level
-            )} ${bgColor} flex flex-col items-center p-5 transition-shadow hover:shadow-md`}
+            )} bg-white flex flex-col items-center p-7 transition-transform duration-300 hover:scale-105 hover:shadow-2xl`}
           >
-            <span className="mb-3 text-2xl">
+            <span className="mb-4 text-3xl">
               {iconMap[skill.name] || <FaCode className="text-gray-400" />}
             </span>
-            <h3 className="text-lg font-medium mb-1 text-gray-900">
+            <h3 className="text-xl font-semibold mb-2 text-gray-900">
               {skill.name}
             </h3>
-            <p className="text-sm text-gray-500 mb-3 text-center">
+            <p className="text-gray-600 mb-4 text-center text-sm">
               {skill.description}
             </p>
             <span
-              className={`px-3 py-0.5 rounded-full text-xs font-semibold ${
+              className={`px-4 py-1 rounded-full text-xs font-bold shadow-sm ${
                 skill.level === "Avanzado"
                   ? "bg-green-100 text-green-700"
                   : skill.level === "Intermedio"
                   ? "bg-yellow-100 text-yellow-700"
-                  : "bg-gray-100 text-gray-700"
+                  : "bg-blue-100 text-blue-700"
               }`}
             >
               {skill.level}
