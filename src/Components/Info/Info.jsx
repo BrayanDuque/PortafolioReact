@@ -15,7 +15,7 @@ export const Info = () => {
             Brayan Duque
           </h2>
           <p className="uppercase tracking-widest text-pink-500 pb-5 font-semibold text-lg">
-            Developer Frontend
+            Developer Software
           </p>
           <p className="text-base sm:text-xl text-gray-200 mb-4">
             Desarrollador web con experiencia en{" "}
